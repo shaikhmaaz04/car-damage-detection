@@ -3,7 +3,7 @@
 ## Project Overview
 
 This repository hosts a complete Machine Learning solution for classifying car damage into specific categories (e.g., **"Front Breakage," "Rear Crushed"**).
-The solution leverages **PyTorch Transfer Learning (ResNet-50)** for high-accuracy predictions, is deployed using a **FastAPI** server for production-ready inference, and provides an interactive **Streamlit** user interface.
+The solution leverages **PyTorch Transfer Learning (ResNet-50)** for high-accuracy predictions, is deployed using a **FastAPI** server for inference, and provides an interactive **Streamlit** user interface.
 
 The project is structured around three main components:
 
@@ -16,7 +16,7 @@ The project is structured around three main components:
 ## 🚀 Features
 
 * **Transfer Learning:**
-  Uses a pre-trained **ResNet-50** model, fine-tuning only the classification head for fast and accurate training.
+  Uses a pre-trained **ResNet-50** model, fine-tuning only the classification head for fast and accurate training. The model achieved around 80% accuracy.
 
 * **Decoupled Architecture:**
   Prediction logic lives in `model_helper.py` and is shared across the FastAPI backend and Streamlit frontend.
