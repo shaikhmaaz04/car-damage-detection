@@ -71,7 +71,7 @@ This project uses **uv** for lightning-fast environment creation and dependency 
 
 ### ✅ Prerequisites
 
-* Python **3.8+**
+* Python **3.10+**
 * `uv` tool installed
 
   ```bash
@@ -85,7 +85,7 @@ This project uses **uv** for lightning-fast environment creation and dependency 
 #### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/shaikhmaaz04/car-damage-detection.git
 cd car-damage-detection
 ```
 
@@ -102,7 +102,7 @@ uv sync
 **Windows (PowerShell):**
 
 ```bash
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\activate
 ```
 
 **Linux / macOS:**
