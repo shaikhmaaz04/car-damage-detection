@@ -1,12 +1,3 @@
-Here is your **updated, complete `README.md`**, now including the two screenshots:
-
-* `fastapi_postman_demo.png`
-* `streamlit_demo.png`
-
-(Assuming both images are located in a folder such as `assets/` or the root. You can adjust the paths.)
-
----
-
 # 🚗 Car Damage Detection using Transfer Learning
 
 ## Project Overview
@@ -57,11 +48,11 @@ The project is structured around three main components:
 
 ### 🔹 Streamlit Frontend Demo
 
-![Streamlit Demo](streamlit_demo.png)
+![Streamlit Demo](assets/streamlit_demo.png)
 
 ### 🔹 FastAPI (Postman) Demo
 
-![FastAPI Demo](fastapi_postman_demo.png)
+![FastAPI Demo](assets/fastapi_postman_demo.png)
 
 ---
 
